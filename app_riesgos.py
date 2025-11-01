@@ -5,7 +5,7 @@ from streamlit_echarts import st_echarts
 #CONFIGURACION DE LA PÁGINA
 st.set_page_config(
      page_title = 'Risk Score',
-     page_icon = 'Logo_perfil.png',
+     page_icon = 'Logo_perfil.jpeg',
      layout = 'wide')
 
 #SIDEBAR
@@ -146,3 +146,4 @@ if st.sidebar.button('CALCULAR RIESGO'):
 
 else:
     st.write('DEFINE LOS PARÁMETROS DEL PRÉSTAMO Y HAZ CLICK EN CALCULAR RIESGO')
+
